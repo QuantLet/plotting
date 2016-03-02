@@ -1,0 +1,18 @@
+
+Name of Quantlet: plotLMR
+
+Published in: plotting
+
+Description: ‘Plots the regression line with a 95% confidence interval and a shaded 95% prediction interval.’
+
+Keywords: plot, visualization, scatterplot, linear-regression, confidence-interval, graphical representation
+
+Author: [New] Ludgar Evers
+
+Submitted: Mon, November 10 2014 by Anne Israel
+
+Datafile: a2.RData
+
+Input:
+- cal.age: calibrated age in thousand years BC
+- rc.age: age obtained from radiocarbon dating in thousand years BC of 52 species
