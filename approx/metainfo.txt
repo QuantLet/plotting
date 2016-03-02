@@ -7,6 +7,6 @@ Description: Shows a loop that approximates the golden ratio and that stops at a
 
 Keywords: proximity, sampling, iterative, approximation
 
-Author: [New] Ludgar Evers
+Author[New]: Ludgar Evers
 
 Submitted: Mon, November 10 2014 by Anne Israel
