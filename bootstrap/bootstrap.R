@@ -1,5 +1,16 @@
-#load packages
-library(MASS)
+
+# clear history
+rm(list = ls(all = TRUE))
+graphics.off()
+
+# install and load packages
+libraries = c("MASS")
+lapply(libraries, function(x) if (!(x %in% installed.packages())) {
+  install.packages(x)
+})
+lapply(libraries, library, quietly = TRUE, character.only = TRUE)
+
+
 data(mammals)
 
 x            = mammals$body

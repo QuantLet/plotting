@@ -10,5 +10,3 @@ Keywords: proximity, sampling, iterative, approximation
 Author: [New] Ludgar Evers
 
 Submitted: Mon, November 10 2014 by Anne Israel
-
-Datafile: none

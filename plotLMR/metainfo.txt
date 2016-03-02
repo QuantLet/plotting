@@ -3,7 +3,7 @@ Name of Quantlet: plotLMR
 
 Published in: plotting
 
-Description: ‘Plots the regression line with a 95% confidence interval and a shaded 95% prediction interval.’
+Description: 'Plots the regression line with a 95% confidence interval and a shaded 95% prediction interval.'
 
 Keywords: plot, visualization, scatterplot, linear-regression, confidence-interval, graphical representation
 

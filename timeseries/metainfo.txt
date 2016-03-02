@@ -3,7 +3,7 @@ Name of Quantlet: timeseries
 
 Published in: plotting
 
-Description: ‘Plots the per capita GDP in different countries over a time-series. In a second step data will be normalized and plotted.’
+Description: 'Plots the per capita GDP in different countries over a time-series. In a second step data will be normalized and plotted.'
 
 Keywords: plot, visualization, graphical representation, normalization, time-series, financial
 

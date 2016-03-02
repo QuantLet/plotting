@@ -1,7 +1,9 @@
 
-# Install and load packages
-library(graphics)
-load("d:/a2.RData")
+# clear history
+rm(list = ls(all = TRUE))
+graphics.off()
+
+load("a2.RData")
 
 # scatterplot of rc.age against cal.age with labelled axis
 plot(rc$cal.age, rc$rc.age, xlim = c(0, 1), ylim = c(0, 1), xlab = "Calibrated Age", ylab = "Age from Radiocarbon Dating", 
@@ -30,4 +32,3 @@ polygon(triangle, lty = 2, col = "grey")
 # we need to redraw the data points and lines which are covered by the polygon
 points(rc$cal.age, rc$rc.age, cex = 0.5)
 abline(0, 0.8735)
- 

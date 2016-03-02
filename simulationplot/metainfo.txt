@@ -3,12 +3,10 @@ Name of Quantlet: simulationplot
 
 Published in: plotting
 
-Description: ‘Plots the first 100 simulated values of a random walk.’
+Description: 'Plots the first 100 simulated values of a random walk.'
 
 Keywords: plot, visualization, graphical representation, simulation, random-walk, stochastic-process
 
 Author: [New] Ludgar Evers
 
 Submitted: Mon, November 10 2014 by Anne Israel
-
-Datafile: none

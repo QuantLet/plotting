@@ -1,3 +1,8 @@
+
+# clear history
+rm(list = ls(all = TRUE))
+graphics.off()
+
 x = 1                         #set initial value
 for (i in 1:50) {             #repeat 
     old.x = x                 #store old value
@@ -8,4 +13,3 @@ for (i in 1:50) {             #repeat
 
 x                             #print result
 (1+sqrt(5)) / 2               #compare to desired answer
- 

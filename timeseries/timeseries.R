@@ -1,12 +1,17 @@
+
+# clear history
+rm(list = ls(all = TRUE))
+graphics.off()
+
 # load data
-load("d:/a2.RData")
+load("a2.RData")
 
 # plot of the per-capita GDP in the UK from 1995 to 2010
 plot(EU$Year, EU$United.Kingdom, type = "l", xlab = "Year", ylab = "per capita GDP", 
     main = "Per capita GDP in PPS (UK)")
 
-# plot the data for all countries available in the data set either use the function
-# matplot
+dev.new()
+# plot the data for all countries available in the data set either use the function matplot
 matplot(EU$Year, EU[, -1], col = 2:ncol(EU), type = "l", lty = 1, xlab = "Year", ylab = "per capita GDP")
 legend("topleft", lty = 1, col = 2:ncol(EU), colnames(EU)[-1])
 
@@ -23,6 +28,7 @@ EU.normalized = EU
 for (i in 2:ncol(EU.normalized)) EU.normalized[, i] = EU.normalized[, i]/EU.normalized[6,i]  
 #with the function sweep you can do it more efficiently
 
+dev.new()
 # plot the normalized data
 matplot(EU.normalized$Year, EU.normalized[, -1], col = 2:ncol(EU.normalized), type = "l", 
     lty = 1, xlab = "Year", ylab = "per capita GDP")
