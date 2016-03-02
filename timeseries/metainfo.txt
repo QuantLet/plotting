@@ -7,7 +7,7 @@ Description: 'Plots the per capita GDP in different countries over a time-series
 
 Keywords: plot, visualization, graphical representation, normalization, time-series, financial
 
-Author: [New] Ludgar Evers
+Author[New] : Ludgar Evers
 
 Submitted: Mon, November 10 2014 by Anne Israel
 

@@ -7,7 +7,7 @@ Description: 'Computes a bootstrap confidence interval for the correlation coeff
 
 Keywords: simulation, bootstrap, confidence-interval, sampling, correlation, estimation, quantile
 
-Author: [New] Ludgar Evers
+Author [New]: Ludgar Evers
 
 Submitted: Mon, November 10 2014 by Anne Israel
 

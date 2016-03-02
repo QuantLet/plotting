@@ -7,7 +7,7 @@ Description: 'Plots the regression line with a 95% confidence interval and a sha
 
 Keywords: plot, visualization, scatterplot, linear-regression, confidence-interval, graphical representation
 
-Author: [New] Ludgar Evers
+Author[New] : Ludgar Evers
 
 Submitted: Mon, November 10 2014 by Anne Israel
 
